@@ -1,9 +1,16 @@
 # ProyectoMovieMood
 Proyecto de portal de películas SpringBoot - JPA - Thymeleaf con base de datos MySql y servicio consumiendo la API de IMDB
 
-El proyecto MovieMoodMySqlUltima necesita configurar previamente una conexión en MySql para mooviemood, con un usuario MM y password mm. El esquema de la BBDD se llamará mooviemood.
+MovieMoodMySqlUltima necesita configurar previamente una conexión en MySql para mooviemood, con un usuario MM y password mm. El esquema de la BBDD se llamará mooviemood.
 
-Éste es el application.properties del proyecto para configurar el servidor y la BBDD: server.port:8083 spring.jpa.hibernate.ddl-auto=update spring.datasource.url=jdbc:mysql://127.0.0.1:3306/moviemood spring.datasource.username=MM spring.datasource.password=mm spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQLDialect
+Éste es el application.properties del proyecto para configurar el servidor y la BBDD: 
+  server.port:8083 
+  spring.jpa.hibernate.ddl-auto=update 
+  spring.datasource.url=jdbc:mysql://127.0.0.1:3306/moviemood 
+  spring.datasource.username=MM 
+  spring.datasource.password=mm 
+  spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver 
+  spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQLDialect
 
 Hay dos scripts para la carga de datos iniciales en la siguiente ruta: /movieMoodMySqlUltima/src/main/resources/bbdd
 
